@@ -1,0 +1,212 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="pageContainer">
+
+  <div class="modal">
+    <div class="innerModal">
+      <div class="button">
+          <button class="close" (click)="closeModal()">X</button>
+      </div>
+      <h1 style="width: 100%"> Please read! </h1>
+      <p>
+        I LOVE WAX
+      </p>
+      <p>
+        Therefore, when I heard about the WAX Bounty Program 2018 I was very excited and thought about what I can do to improve WAX
+        or simply give it the attention it needs. WAX is not only a cryptocurrency but it wants to further innovate the digital
+        trading market. And if you are not familiar with it, here are some facts:
+      </p>
+      <ul>
+        <li>
+          There are around 2 BILLION Gamers worldwide
+        </li>
+        <li>
+          Out of these 2 BILLION, 400 MILLION already collect, trade and sell digital items
+        </li>
+        <li>
+          Around 50$ BILLION in digital assets are beeing traded every year
+        </li>
+        <li>
+          OPSKINS is the #1 DIGITAL ASSET TRADING MARKET
+        </li>
+      </ul>
+      <p>
+        Now, I don't want to bore you with some facts but still want to say a little bit about this website. I am a 18-year-old student
+        at a Higher Technical College and I am very enthusuastic about Web development. If you want to contact me feel free
+        to message me anytime:
+      </p>
+      <p>
+          matthias.kueblboeck@yahoo.de
+      </p>
+    </div>
+  </div>
+<!--
+  <div class="horizontalRow">
+    <div class="rowContent">
+      <img src="assets/wax/wax-logo-white.png" id="headerRowLogo">
+    </div>
+    <div class="rowContent">
+      {{wax_info.rank}}
+    </div>
+    <div class="rowContent">
+      {{wax_info.market_cap}}$
+    </div>
+    <div class="rowContent">
+      {{wax_info.price_usd}}$
+    </div>
+    <div class="rowContent">
+      {{wax_info.volume_24h}}$
+    </div>
+    <div class="rowContent">
+      {{wax_info.percent_change_24h}}%
+    </div>
+  </div>
+-->
+  <section id="home" class="divider">
+    <div class="innerContent">
+      <div class="videoContainer">
+        <iframe src="https://www.youtube.com/embed/k2efWaUvDC0" width="1600" height="900" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <img src="assets/wax/illustration.png " width=100%>
+
+    </div>
+  </section>
+
+  <div class="particlesContainer">
+    <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+    <section class="news">
+      <div class="innerContent_news">
+        <div class="slideshow-container ">
+          <div class=" fade ">
+            <img src="assets/medium/bounty_program.png " style="width:100%; display: block; cursor: pointer" (click)="slideService.goToSite(
+              'https://medium.com/wax-io/the-wax-bounty-program-is-here-submit-your-entries-beginning-friday-may-11th-95c11c0401b6') ">
+          </div>
+
+          <div class="mySlides fade ">
+            <img src="assets/medium/cryptopuppies.png " style="width:100% " (click)="slideService.goToSite(
+              'https://medium.com/wax-io/coming-soon-trade-cryptopuppies-with-wax-tokens-on-opskins-98d50adb298b') ">
+          </div>
+
+          <div class="mySlides fade ">
+            <img src="assets/medium/ether_online.png " style="width:100% " (click)="slideService.goToSite(
+              'https://medium.com/wax-io/crypto-collectible-ether-online-partners-with-wax-and-opskins-marketplace-f6e55704813b') ">
+          </div>
+
+          <div class="mySlides fade ">
+            <img src="assets/medium/trust_wallet.png " style="width:100% " (click)="slideService.goToSite(
+              'https://medium.com/wax-io/trust-wallet-partners-with-wax-and-opskins-marketplace-a770dd3576f6') ">
+          </div>
+
+          <!--
+          <a class="prev" (click)="this.slideService.plusSlides(-1)" >&#10094;</a>
+          <a class="next" (click)="this.slideService.plusSlides(1)" >&#10095;</a>
+          <span class="dot dot1" (click)="this.slideService.currentSlide(1)"></span>
+          <span class="dot dot2" (click)="this.slideService.currentSlide(2)"></span>
+          <span class="dot dot3" (click)="this.slideService.currentSlide(3)"></span>
+          <span class="dot dot4" (click)="this.slideService.currentSlide(4)"></span>
+          -->
+        </div>
+        <div class="social">
+          <a class="social_icon" href="https://www.facebook.com/WAX.io.Community/" target="_blank" rel="noopener">
+            <img src="assets/wax/icon-sm-facebook.svg" alt="icon-telegram">
+          </a>
+          <a class="social_icon" href="https://medium.com/wax-io/" target="_blank" rel="noopener">
+            <img src="assets/wax/icon-sm-medium.svg" alt="icon-telegram">
+          </a>
+          <a class="social_icon" href="https://www.reddit.com/r/WAX_io/" target="_blank" rel="noopener">
+            <img src="assets/wax/icon-sm-reddit.svg" alt="icon-telegram">
+          </a>
+          <a class="social_icon" href="https://t.me/waxtokenannoucements" target="_blank" rel="noopener">
+            <img src="assets/wax/icon-sm-telegram.svg" alt="icon-telegram">
+          </a>
+          <a class="social_icon" href="https://twitter.com/WAX_io" target="_blank" rel="noopener">
+            <img src="assets/wax/icon-sm-twitter.svg" alt="icon-telegram">
+          </a>
+          <a class="social_icon" href="https://t.me/wax_io" target="_blank" rel="noopener">
+            <img src="assets/wax/icon-telegram-discuss.png" alt="icon-telegram">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <section class="opskins">
+    <div class="container">
+      <div class="headerRow-opskins">
+        <p>From the founders of OPSKINS</p>
+      </div>
+      <div class="row">
+        <div class="item-1">
+          <img src="assets/misc/rocket.png" width=100%>
+          <p class="itemDesc"> 50$ BILLION INDUSTRY</p>
+        </div>
+        <div class="item-2">
+          <img src="assets/wax/token-main.png" width=100%>
+          <p class="itemDesc"> 400 MILLION COLLECTORS, BUYERS, SELLERS </p>
+        </div>
+        <div class="item-3">
+          <img src="assets/misc/number1.png" width=100%>
+          <p class="itemDesc"> WORLDS #1 IN DIGITAL TRADING </p>
+        </div>
+      </div>
+    </div>
+    <div class="partnerContainer">
+      <div class="headerRow-partners">
+        <p> Featured Partners </p>
+      </div>
+      <div class="row">
+        <div class="partner-item-1">
+          <a href="https://www.bancor.network/" target="_blank">
+            <img src="assets/partners/logo-bancor.svg" width=100%>
+          </a>
+        </div>
+        <div class="partner-item-2">
+          <a href="https://www.jaxx.io/" target="_blank">
+            <img src="assets/partners/logo-jaxx.svg" width=100%>
+          </a>
+        </div>
+        <div class="partner-item-3">
+          <a href="https://www.kyber.network/" target="_blank">
+            <img src="assets/partners/logo-kyber.svg" width=100%>
+          </a>
+        </div>
+        <div class="partner-item-4">
+          <a href="https://www.nexo.io/" target="_blank">
+            <img src="assets/partners/logo-nexo.svg" width=100%>
+          </a>
+        </div>
+        <div class="partner-item-5">
+          <a href="https://www.robotcache.com/" target="_blank">
+            <img src="assets/partners/logo-robot-cache.svg" width=100%>
+          </a>
+        </div>
+        <div class="partner-item-6">
+          <a href="https://www.saltlending.com/" target="_blank">
+            <img src="assets/partners/logo-salt.svg" width=100%>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr style="border: 1px solid black; margin: 0">
+  <section class="footer">
+    <div class="footerContainer">
+      <div class="row-1">
+        <div class="footer-item-1">
+          <img src="assets/wax/token-main.png" width=50%>
+        </div>
+        <div class="footer-item-2">
+          <a href="https://www.wax.io" target="_blank">
+            <img style="cursor: pointer" src="assets/wax/wax-logo-white.png" width=100%>
+          </a>
+        </div>
+        <div class="footer-item-3">
+          <img src="assets/wax/token-small.png" width=50%>
+        </div>
+      </div>
+      <p class="footerText"> &copy; Made for the WAX bounty program 2018 </p>
+    </div>
+  </section>
+
+</div>
